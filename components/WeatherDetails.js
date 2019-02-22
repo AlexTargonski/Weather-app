@@ -25,6 +25,7 @@ const WeatherDetails = ({
         background    : rgba(45, 48, 88, 0.3);
         padding       : 3.5em;
         border-radius : 30px;
+        color         : #ffff;
       }
     `}
     </style>

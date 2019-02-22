@@ -58,14 +58,17 @@ const Index = (props) => {
             padding     : 25px;
             margin      : 0;
             font-family : 'Nunito', sans-serif;
+            background  : url('../static/ambient-background.jpg') no-repeat;
           }
 
           h1 {
             font-size : 55px;
+            color     : #ffff;
           }
 
           h2 {
             text-align : center;
+            color      : #ffff;
           }
 
           p {
@@ -76,12 +79,14 @@ const Index = (props) => {
       <style jsx>
         {`
           input {
-            border        : 2px #20262c solid;
+            border        : 3px #ffff solid;
             border-radius : 100px;
             height        : 15px;
             width         : 400px;
             padding       : 18px;
             font-size     : 25px;
+            color         : #ffff;
+            background    : transparent;
           }
 
           button {
