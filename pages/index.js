@@ -55,7 +55,7 @@ const Index = (props) => {
       <style global jsx>
         {`
           body {
-            padding     : 0;
+            padding     : 25px;
             margin      : 0;
             font-family : 'Nunito', sans-serif;
           }
