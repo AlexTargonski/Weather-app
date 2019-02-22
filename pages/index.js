@@ -19,6 +19,7 @@ const Index = (props) => {
   return(
     <>
       <Head>
+        <title>Weather App</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
       </Head>
       <div className="form-control">
